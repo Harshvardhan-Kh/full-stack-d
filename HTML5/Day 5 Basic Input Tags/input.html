@@ -76,7 +76,7 @@
     <h1>Dropdown</h1>
     <p>We can create drop-down list using selecttag. select Tag are contain Multiple option tag. option Tag are used to
         display available options in drop-down.</p>
-       
+
     <form>
         <label for="selectLanguage">Choose Language :</label> <br />
         <select id="selectLanguage">
@@ -86,7 +86,21 @@
             <option>JAVASCRIPT</option>
         </select>
     </form>
-
+    <h1>Data List</h1>
+    <p>Data list it is a Searchable list option. It can help the user, the user does not need to type the whole text data list have predefined suggestions so it can suggest to the user.</p>
+    <form>
+        <input list="techOptions" />
+  
+        <datalist id="techOptions">
+          <option>Choose Techonoloy :</option>
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>Javascript</option>
+          <option>Bootstrap</option>
+          <option>NodeJs</option>
+          <option>ExpressJs</option>
+        </datalist>
+      </form>
 </body>
 
 </html>
